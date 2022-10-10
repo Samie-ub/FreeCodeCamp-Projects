@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>survey form</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1 id="title">Survey Form Project</h1>
+      <p id="description">This is a survey form for freecodecamp project.</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">name</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required />
+        <label for="email" id="email-label">email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required />
+        <label for="number"  id="number-label">number</label>
+        <input type="number" min="13" max="13" id="number" placeholder="Enter Your Number" required />
+        <div class="form-group">
+          <p class="group-one">Is freecodecamp good</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="no"
+              type="radio"
+              class="input-radio"
+              checked
+            />No</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="i think so"
+              type="radio"
+              class="input-radio"
+            />I think so</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="yes"
+              type="radio"
+              class="input-radio"
+            />yes</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p class="clue-para">
+            what do you want to see?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+    
+          <input
+              name="prefer"
+              value="html"
+              type="checkbox"
+              class="input-checkbox"
+            />html</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="css"
+              type="checkbox"
+              class="input-checkbox"
+            />css</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="javascript"
+              type="checkbox"
+              class="input-checkbox"
+            />javascript</label
+          >
+        </div>
+    
+
+        <div class="form-group">
+          <p>What do you do?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Job</option>
+            <option value="free">free</option>
+            <option value="teacher">teacher</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="submiting-group">
+          <p class="clue-para">Any comments?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+          <button type="submit" id="submit" class="submit-button">
+            Submit it
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

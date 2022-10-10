@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main{
+    background-color: rgb(185, 183, 183);
+}
+
+#title{
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding: 2rem;
+}
+
+.title-sub{
+    font-size: 1.5rem;
+    color: rgb(80, 79, 79);
+    padding: 0 0 2rem 0;
+} 
+
+#img-div{
+    background-color: white;
+    padding: 5rem;
+    margin: 0px 2rem;
+    border-radius: 5px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+#img-caption{
+    font-size: 1.2rem;
+    padding: 2rem 0 0 0;
+    color:rgb(80, 79, 79); ;
+}
+
+.info-heading{
+    padding: 2rem;
+    text-transform: capitalize;
+}
+
+.info-ul{
+    max-width: 100%;
+    margin: 0 2rem;
+    text-align: left;
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.info-li{
+    padding: 10px;
+    list-style-type: disc;
+}
+
+h3{
+    padding: 3rem;
+    font-size: 1.5rem;
+}

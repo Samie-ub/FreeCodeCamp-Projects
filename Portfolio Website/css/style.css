@@ -1,0 +1,203 @@
+/* User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+
+User Story #2: The welcome section should have an h1 element that contains text.
+
+User Story #3: My portfolio should have a projects section with an id of projects.
+
+User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+
+User Story #5: The projects section should contain at least one link to a project.
+
+User Story #6: My portfolio should have a navbar with an id of navbar.
+
+User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+
+User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+
+User Story #9: My portfolio should have at least one media query.
+
+User Story #10: The height of the welcome section should be equal to the height of the viewport.
+
+User Story #11: The navbar should always be at the top of the viewport. */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* helper class starts here */
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+.sub-text{
+    text-align: center;
+    color: #ece9e9;
+}
+
+/* helper calss ends here */
+
+/* nav section starts here */
+.nav-section{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #b36f4f;
+}
+
+.nav-links{
+    margin:0  2rem;
+}
+
+.nav-ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    padding: 1rem;
+text-transform: capitalize;
+color: #ffffff;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.link:hover{
+    color: #464545;
+    transition: .4s;
+    border-bottom: 2px solid #464545;
+    border-radius: 2px;
+}
+/* nav section ends here */
+
+/* welcome section  starts here */
+
+#welcome-section{
+    background-color: #444242;
+    height: 100vh;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-text{
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* welcome section ends here */
+
+/* project section starts here */
+
+#project{
+    background-color: #b36f4f;
+
+}
+
+.project-details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.project-header{
+    padding: 5rem 0;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+.project-tile{
+    width: 25rem;
+    background-color: #464545;
+    margin: 1rem;
+    border: 1px solid #464545;
+    
+}
+
+.project-tile img{
+    width: 100%;
+}
+
+.disc-para{
+    background-color: #464545;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+.social-icon  i{
+    color: white;
+}
+
+
+/* project section ends here */
+
+/* footer section starts here */
+
+.footer{
+    background-color: #464545;
+    text-align: center;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-desc{
+    background-color: #464545;
+    border-top: 4px solid #b36f4f;
+}
+
+.footer-content{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    text-transform: capitalize;
+}
+
+.btn{
+    color:white;
+      font-size:1rem;
+      margin:0 1rem;
+    }
+    
+    .btn:hover{
+    color:#b36f4f;
+    }
+
+    
+/* footer section ends here */
+
+/* responsive starts here */
+@media (max-width: 575px) { 
+.btn{
+    margin: 20px;
+}
+}

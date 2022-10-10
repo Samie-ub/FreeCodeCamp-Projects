@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(162, 156, 172);
+    text-align: center;
+}
+
+#title {
+    text-transform: capitalize;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#survey-form{
+    background-color: white;
+    max-width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+#name-label{
+    display: block;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 0px;
+}
+
+#email-label{
+    display: block;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 0px;
+}
+
+#number-label{
+    display: block;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 0px;
+}
+
+#name{
+    padding: 10px;
+    width: 97%;
+    text-transform: capitalize;
+}
+
+#email{
+    padding: 10px;
+    width: 97%;
+}
+
+#number{
+    padding: 10px;
+    width: 97%;
+}
+
+.form-group{
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.group-one{
+    text-transform: capitalize;
+}
+
+.input-radio{
+padding: 1rem;
+margin: 1rem;
+}
+
+.clue-para{
+    padding: 1rem 0rem;
+}
+
+.input-checkbox{
+    margin: 0rem 1rem;
+}
+
+.submiting-group{
+    padding: 1rem 0;
+}
+
+.input-textarea{
+    width: 100vh;
+    height: 10rem;
+    display: block;
+}
+
+.submit-button{
+    padding: 1rem;
+   margin: 1rem 0rem;
+   text-transform: capitalize;
+}
+#dropdown{
+    padding: 10px;
+    margin: 10px;
+}
